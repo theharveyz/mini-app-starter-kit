@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  plugins: [
+	"transform-decorators-legacy",
+	["transform-class-properties", { "spec": true }],
+	[
+		'babel-plugin-transform-builtin-extend',
+		{
+		   globals: ['Error']
+		}
+	]
+  ]
+}

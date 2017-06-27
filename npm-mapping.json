@@ -1,0 +1,10 @@
+[
+    {
+        "src": "node_modules/es6-promise/dist/es6-promise.min.js",
+        "dest": "build/npm/es6-promise/dist/"
+    },
+    {
+        "src": "node_modules/wechat-charts/dist/wxcharts.js",
+        "dest": "build/npm/wechat-charts/dist/"
+    }
+]

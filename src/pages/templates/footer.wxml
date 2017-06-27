@@ -1,0 +1,5 @@
+<template name="footer">
+	<view class="s_page__ft">
+	    <image src="{{img}}" style="width: 84px; height: 19px;"></image>
+	</view>
+</template>

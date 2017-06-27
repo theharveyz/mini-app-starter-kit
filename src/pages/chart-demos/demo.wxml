@@ -1,0 +1,10 @@
+<import src="../templates/header.wxml"/>
+<import src="../templates/footer.wxml"/>
+
+<view class="page">
+    <template is="header" data="{{...headerData}}"/>
+    <view class="page__bd page__bd_spacing">
+        <canvas canvas-id="pieCanvas" class="canvas"></canvas>
+    </view>
+    <template is="footer" data="{{img: '../../assets/images/icon_footer_link.png'}}"/>
+</view>

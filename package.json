@@ -1,0 +1,39 @@
+{
+  "name": "mini-app-starter-kit",
+  "version": "0.0.1",
+  "description": "基于ES6语法的小程序DEMO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/gulp/bin/gulp.js build",
+    "dev": "./node_modules/gulp/bin/gulp.js watch"
+  },
+  "author": "HarveyZ",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.7.7",
+    "babel-plugin-transform-builtin-extend": "^1.1.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "babel-register": "^6.5.2",
+    "core-js": "^2.4.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-ignore": "^2.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-rev-all": "^0.9.7",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.2.2",
+    "vinyl-paths": "^2.1.0"
+  },
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "wechat-charts": "github:theharveyz/wx-charts"
+  }
+}

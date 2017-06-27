@@ -1,0 +1,54 @@
+/**app.wxss**/
+@import 'assets/styles/weui.wxss';
+.fc-red {
+	color: #f00000;
+}
+.fc-ccc {
+	color: #ccc;
+}
+.fc-blue {
+  color: #09BB07;
+}
+/**自定义样式使用's_'开头**/
+.s_page__ft{
+    padding: 15rpx;
+    text-align: center;
+}
+.kind-list{}
+.kind-list__item {
+  margin: 10px 0;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.kind-list__item:first-child {
+  margin-top: 0;
+}
+.kind-list__img {
+  width: 30px;
+  height: 30px;
+}
+.kind-list__item-hd {
+  padding: 20px;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+.kind-list__item-hd_show {
+  opacity: .4;
+}
+.kind-list__item-bd {
+  height: 0;
+  overflow: hidden;
+}
+.kind-list__item-bd_show {
+  height: auto;
+}
+.page__hd {
+  padding: 25px 40px;
+}
+
+#logout-btn {
+  position: absolute;
+  top:60rpx;
+  right:15rpx;
+}

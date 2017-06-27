@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index",
+    "pages/chart-demos/demo"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序演示",
+    "navigationBarTextStyle":"black"
+  }
+}
