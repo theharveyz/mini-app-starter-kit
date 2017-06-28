@@ -82,7 +82,7 @@ npm run dev
 
 ## 小程序暂时存在的问题
 - 页面绑定的事件方法，**只能通过属性的方式去绑定**；但是这带来潜在的问题：`this.setData`等原生方法，会出现undefined的情况:
-```javascript
+    ```javascript
 new class A {
 
     constructor() {
@@ -93,10 +93,10 @@ new class A {
         this.setData(....)
     }
 }
-```
+    ```
 
-解决方式：
-> 在onLoad方法里将this赋值给A的静态变量.
+    解决方式：
+    > 在onLoad方法里将this赋值给A的静态变量.
 
 - redirectTo url相对路径问题，通过内部封装的方法动态计算要跳转的目标路径相对于当前路径的地址。
 
