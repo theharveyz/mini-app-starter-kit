@@ -81,6 +81,23 @@ npm run dev
 - **node_modules目录下的js文件在构建后，统一放置在`build/npm`目录下**
 
 ## 小程序暂时存在的问题
+- 页面绑定的事件方法，**只能通过属性的方式去绑定**；但是这带来潜在的问题：`this.setData`等原生方法，会出现undefined的情况:
+```javascript
+new class A {
+
+    constructor() {
+        Page(this);
+    }
+
+    tapname = () => {
+        this.setData(....)
+    }
+}
+```
+
+解决方式：
+> 在onLoad方法里将this赋值给A的静态变量.
+
 - redirectTo url相对路径问题，通过内部封装的方法动态计算要跳转的目标路径相对于当前路径的地址。
 
 - wx.request同时只能发起10个请求。在搜索时，由于用户输入过快，可能存在同时进行超过10个请求的情况。
