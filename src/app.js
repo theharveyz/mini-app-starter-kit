@@ -66,7 +66,6 @@ new class Main {
     console.log(err);
   }
 
-  // 只能通过属性方式去绑定
   currentPage() {
     const page = getCurrentPages().pop();
     if (page) {
