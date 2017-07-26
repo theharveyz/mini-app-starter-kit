@@ -1,4 +1,6 @@
 # mini-app-starter-kit
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/theharveyz/mini-app-starter-kit.svg)](https://greenkeeper.io/)
 基于ES6(ES7 decorator)的微信小程序DEMO
 
 ## 预览
