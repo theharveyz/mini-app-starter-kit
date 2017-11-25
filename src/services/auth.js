@@ -20,30 +20,4 @@ export default class Auth {
       }
     };
   }
-
-  //验证码发送
-  @httpPost()('/api/auth/send_captcha')
-  sendCaptcha(email) {
-    return {
-      data: {
-        email
-      }
-    };
-  }
-
-  //验证码发送
-  @httpPost()('/api/auth/erp_verify')
-  captchaVerify({
-    email,
-    captcha,
-    code
-  }) {
-    return {
-      data: {
-        email,
-        captcha,
-        code
-      }
-    };
-  }
 };
